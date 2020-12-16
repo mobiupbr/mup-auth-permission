@@ -1,0 +1,19 @@
+{
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mobiup\\Auth\\Permission\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mobiup\\Auth\\Permission\\Tests\\": "tests/"
+        }
+    }
+}
