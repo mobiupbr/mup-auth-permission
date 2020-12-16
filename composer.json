@@ -1,4 +1,10 @@
 {
+    "name": "mobiupbr/mup-auth-permission",
+    "description": "Provides a JSON-based ACL control",
+    "license": "MIT",
+    "keywords": [
+        "acl"
+    ],
     "require": {
         "php": ">=7.4",
         "ext-json": "*"
