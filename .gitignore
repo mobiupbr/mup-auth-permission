@@ -1,3 +1,8 @@
 vendor/
 .idea/
+.phpunit/
+.phpunit.result.cache/
+.phpcs-cache/
+phpunit.xml
+phpcs.xml
 composer.lock
