@@ -7,12 +7,13 @@
 namespace Mobiup\Auth\Permission;
 
 use InvalidArgumentException;
+use Mobiup\Auth\Permission\Interfaces\ACLInterface;
 
 /**
  * Class ACL
  * @package Mobiup\Auth\Permission
  */
-class ACL
+class ACL implements ACLInterface
 {
     private array $acl = [];
 
@@ -159,7 +160,7 @@ class ACL
 
     /**
      * @param false $asJson
-     * @return array|false|mixed|string
+     * @return array|false|string
      */
     public function export($asJson = false)
     {
